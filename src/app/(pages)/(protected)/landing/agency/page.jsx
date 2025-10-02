@@ -1,6 +1,6 @@
 import ModernNavbar from '@/components/layout/ModernNavbar';
 import Hero from './components/Hero';
-import Services from './components/DataAdvantage';
+
 import { blogPosts, jobDetails, projects, services } from './data';
 import Portfolios from './components/Portfolios';
 
@@ -14,7 +14,7 @@ const Agency = () => {
         <ModernNavbar buttonVariant="outline-secondary" />
         <Hero />
       </div>
-      <Services services={services} />
+     
       <Portfolios portfolios={projects} />
 =      {/* <Blogs blogs={blogPosts} />
       <Vacancies jobDetails={jobDetails} /> */}
